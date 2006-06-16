@@ -1,0 +1,70 @@
+perl-IP-Country 
+------------------------------------------- 
+Perl module for fast lookup of country codes from IP addresses.
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  perl-5.8.7-5
+
+Canonical homepage:
+  http://search.cpan.org/~nwetters/IP-Country/
+
+Canonical download:
+  http://www.cpan.org/authors/id/N/NW/NWETTERS/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-IP-Country-2.21-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-IP-Country-2.21-1.cygport all
+
+This will create:
+  /usr/src/perl-IP-Country-2.21-1-src.tar.bz2
+  /usr/src/perl-IP-Country-2.21-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-IP-Country.sh
+  /usr/bin/ip2cc
+  /usr/lib/perl5/vendor_perl/5.8/IP/Authority.pm
+  /usr/lib/perl5/vendor_perl/5.8/IP/Authority/auth.gif
+  /usr/lib/perl5/vendor_perl/5.8/IP/Authority/ipauth.gif
+  /usr/lib/perl5/vendor_perl/5.8/IP/Country.pm
+  /usr/lib/perl5/vendor_perl/5.8/IP/Country/Fast.pm
+  /usr/lib/perl5/vendor_perl/5.8/IP/Country/Fast/cc.gif
+  /usr/lib/perl5/vendor_perl/5.8/IP/Country/Fast/ip.gif
+  /usr/lib/perl5/vendor_perl/5.8/IP/Country/MaxMind.pm
+  /usr/lib/perl5/vendor_perl/5.8/IP/Country/Medium.pm
+  /usr/lib/perl5/vendor_perl/5.8/IP/Country/Slow.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/IP/Country/.packlist
+  /usr/share/doc/Cygwin/perl-IP-Country-2.21.README
+  /usr/share/doc/perl-IP-Country-2.21/Changes
+  /usr/share/doc/perl-IP-Country-2.21/INSTALL
+  /usr/share/doc/perl-IP-Country-2.21/README
+  /usr/share/man/man1/ip2cc.1.gz
+  /usr/share/man/man3/IP.Authority.3pm.gz
+  /usr/share/man/man3/IP.Country.3pm.gz
+  /usr/share/man/man3/IP.Country.Fast.3pm.gz
+  /usr/share/man/man3/IP.Country.MaxMind.3pm.gz
+  /usr/share/man/man3/IP.Country.Medium.3pm.gz
+  /usr/share/man/man3/IP.Country.Slow.3pm.gz
+  /usr/share/perl/cygwin-pods/5.8/IP-Country.pod
+
+------------------
+
+Port Notes:
+
+----- version 2.21-1 -----
+Version bump.
+
+----- version 2.20-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
