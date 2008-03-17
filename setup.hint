@@ -1,4 +1,4 @@
 category: Perl Net
-requires: cygwin perl
+requires: perl
 sdesc: "Perl module for fast lookup of country codes from IP addresses."
 ldesc: "Perl module for fast lookup of country codes from IP addresses."
